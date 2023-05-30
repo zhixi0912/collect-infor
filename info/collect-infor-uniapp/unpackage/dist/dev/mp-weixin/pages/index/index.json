@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "信息采集",
+  "usingComponents": {
+    "u-grid": "/uni_modules/uview-ui/components/u-grid/u-grid",
+    "u-grid-item": "/uni_modules/uview-ui/components/u-grid-item/u-grid-item",
+    "u-icon": "/uni_modules/uview-ui/components/u-icon/u-icon",
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "u-list": "/uni_modules/uview-ui/components/u-list/u-list",
+    "u-list-item": "/uni_modules/uview-ui/components/u-list-item/u-list-item",
+    "u-cell": "/uni_modules/uview-ui/components/u-cell/u-cell",
+    "u-avatar": "/uni_modules/uview-ui/components/u-avatar/u-avatar",
+    "u-tabbar": "/uni_modules/uview-ui/components/u-tabbar/u-tabbar",
+    "u-tabbar-item": "/uni_modules/uview-ui/components/u-tabbar-item/u-tabbar-item"
+  }
+}

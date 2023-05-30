@@ -1,0 +1,8 @@
+{
+  "name": "collect-API",
+  "version": "0.1.0",
+  "description": "信息采集项目API",
+  "title":" 员工信息采集系统",
+  "url": "http://127.0.0.1:5000/api/v1.0",
+  "sampleUrl": "http://127.0.0.1:5000/api/v1.0"
+}
