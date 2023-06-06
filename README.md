@@ -34,14 +34,14 @@
 # 克隆代码
 git clone https://gitee.com/zhixi0912/collect-infor.git
 
-# 安装 pnpm
-npm install pnpm -g
-
 # 安装依赖
-pnpm install
+npm install
+
+# 或使用npm淘宝源
+npm install --registry=http://registry.npm.taobao.org
 
 # 启动运行
-pnpm run dev
+npm run dev
 ```
 
 
@@ -67,7 +67,9 @@ pnpm run dev
 ]
 
 # 例如
+git add .
 git commit -m "feat: add menu"
+git push origin master
 ```
 
 ## 项目部署
