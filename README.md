@@ -1,4 +1,4 @@
-###  collect-infor-admin
+#  collect-infor-admin
 
 <p align="center">
     <img src="https://img.shields.io/badge/Vue-3.3.1-brightgreen.svg"/>
@@ -8,7 +8,7 @@
 </p>
 
 
-## 项目介绍
+### 项目介绍
 
 基于 Vue3 + Vite4+ TypeScript5 + Element-Plus + Pinia 等最新主流技术栈构建的前端项目。
 
@@ -16,7 +16,7 @@
 
 - 权限系统功能齐全，包括用户管理、角色管理、菜单管理、字典管理和部门管理等，以满足您对权限管理的需求。
 - 项目还提供了基础设施支持，包括动态路由、按钮级别的权限控制、国际化支持、代码规范、Git 提交规范以及常用组件的封装，以便开发人员更高效地开发和维护项目。
-## 项目预览
+### 项目预览
 
 
 
@@ -28,7 +28,7 @@
 | **VSCode插件(必装)** | 1. `Vue Language Features (Volar) ` <br/> 2. `TypeScript Vue Plugin (Volar) `  <br/>3. 禁用 Vetur | ![image-20230224222541797](https://s2.loli.net/2023/02/24/Qt4XDGHFOWqfsyB.png) |
 
 
-## 项目启动
+### 项目启动
 
 ```bash
 # 克隆代码
@@ -48,7 +48,7 @@ npm run dev
 ```
 
 
-## GIT提交规则
+### GIT提交规则
 
 ```
 # 提交类型
@@ -75,7 +75,7 @@ git commit -m "feat: add menu"
 git push origin master
 ```
 
-## 项目部署
+### 项目部署
 
 ```bash
 # 项目打包
@@ -102,7 +102,7 @@ server {
 
 
 
-###  collect-infor-py
+#  collect-infor-py
 
 <p align="center">
     <img src="https://img.shields.io/badge/python-v3.9.6-green"/>
@@ -112,8 +112,19 @@ server {
 </p>
 
 
-## 项目介绍
+### 项目介绍
 
 基于 Python3.9.6 + Flask2.2.2 + Mysql8 + Redis4.3.4 + SQLAlchemy1.4.44 等最新主流技术栈构建的后端项目。
 
 项目有以下特性：
+
+### 项目预览
+
+
+
+
+|     环境     | 名称版本    | 备注            |
+| ----------- | :-------- | --------------|
+| **开发工具**         | Pycharm       | [下载地址](https://www.jetbrains.com/zh-cn/pycharm/)                                                            |
+| **运行环境**         | Python 3.9.6+                 |  [下载地址](https://www.python.org/downloads/)   |
+| **VSCode插件(必装)** | 1. `Vue Language Features (Volar) ` <br/> 2. `TypeScript Vue Plugin (Volar) `  <br/>3. 禁用 Vetur | ![image-20230224222541797](https://s2.loli.net/2023/02/24/Qt4XDGHFOWqfsyB.png) |
