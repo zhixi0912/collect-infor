@@ -114,6 +114,6 @@ server {
 
 ## 项目介绍
 
-基于 Vue3 + Vite4+ TypeScript5 + Element-Plus + Pinia 等最新主流技术栈构建的前端项目。
+基于 Python3.9.6 + Flask2.2.2 + Mysql8 + Redis4.3.4 + SQLAlchemy1.4.44 等最新主流技术栈构建的后端项目。
 
 项目有以下特性：
