@@ -107,7 +107,7 @@ server {
 <p align="center">
     <img src="https://img.shields.io/badge/python-v3.9.6-green"/>
     <img src="https://img.shields.io/badge/Flask-v2.2.2-yellowgreen"/>
-    <img src="https://img.shields.io/badge/redis-v4.3.4-yellowgreen"/>
+    <img src="https://img.shields.io/badge/redis-v4.3.4-orange"/>
     <img src="https://img.shields.io/badge/license-MIT-green.svg"/>
 </p>
 
