@@ -1,9 +1,9 @@
-#  collect-infor
+###  collect-infor-admin
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Vue-3.3.1-brightgreen.svg"/>
-    <img src="https://img.shields.io/badge/Vite-4.3.5-green.svg"/>
-    <img src="https://img.shields.io/badge/Element Plus-2.3.4-blue.svg"/>
+    <img src="https://img.shields.io/badge/python-v3.9.6-green"/>
+    <img src="https://img.shields.io/badge/Flask-v2.2.2-yellowgreen"/>
+    <img src="https://img.shields.io/badge/redis-v4.3.4-yellowgreen"/>
     <img src="https://img.shields.io/badge/license-MIT-green.svg"/>
 </p>
 
@@ -33,6 +33,9 @@
 ```bash
 # 克隆代码
 git clone https://gitee.com/zhixi0912/collect-infor.git
+
+# 进入前端根目录
+cd collect-infor-admin
 
 # 安装依赖
 npm install
@@ -96,3 +99,21 @@ server {
 }
 ```
 
+
+
+
+###  collect-infor-py
+
+<p align="center">
+    <img src="https://img.shields.io/badge/Vue-3.3.1-brightgreen.svg"/>
+    <img src="https://img.shields.io/badge/Vite-4.3.5-green.svg"/>
+    <img src="https://img.shields.io/badge/Element Plus-2.3.4-blue.svg"/>
+    <img src="https://img.shields.io/badge/license-MIT-green.svg"/>
+</p>
+
+
+## 项目介绍
+
+基于 Vue3 + Vite4+ TypeScript5 + Element-Plus + Pinia 等最新主流技术栈构建的前端项目。
+
+项目有以下特性：
