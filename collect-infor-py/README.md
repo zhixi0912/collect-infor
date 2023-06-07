@@ -24,6 +24,9 @@ https://gitee.com/zhixi0912/collect-infor-admin
 技术栈：python3.9.6 + flask + mysql  
 https://gitee.com/zhixi0912/collect-infor-py
 
+redis下载地址
+https://github.com/tporadowski/redis/releases
+
 #### 安装教程
 
 1.  xxxx
