@@ -127,4 +127,5 @@ server {
 | ----------- | :-------- | --------------|
 | **开发工具**         | Pycharm       | [下载地址](https://www.jetbrains.com/zh-cn/pycharm/)                                                            |
 | **运行环境**         | Python 3.9.6+                 |  [下载地址](https://www.python.org/downloads/)   |
+| **缓存数据库**         | redis 5.0.10       | [下载地址](https://github.com/tporadowski/redis/releases)                                                            |
 | **VSCode插件(必装)** | 1. `Vue Language Features (Volar) ` <br/> 2. `TypeScript Vue Plugin (Volar) `  <br/>3. 禁用 Vetur | ![image-20230224222541797](https://s2.loli.net/2023/02/24/Qt4XDGHFOWqfsyB.png) |
