@@ -5,6 +5,7 @@ import 'element-plus/dist/index.css'
 
 import App from './App.vue'
 import router from './router'
+import "uno.css"
 import 'font-awesome/css/font-awesome.min.css'
 import '@/styles/main.scss';
 
