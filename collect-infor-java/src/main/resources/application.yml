@@ -1,5 +1,7 @@
 # xxxAutoConfigurartion :自动配置类，给容器中添加组件
 # xxxProperties : 封装配置文件中的相关属性
+#字符集：utf8mb4
+#排序规则：utf8mb4_unicode_ci
 spring:
   profiles:
     active: "dev"
@@ -10,10 +12,33 @@ spring:
     activate:
       on-profile: "dev"
   datasource:
-    driver-class-name: "com.mysql.cj.jdbc.Driver"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
     url: "jdbc:mysql://localhost:3306/collect-infor?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai"
     username: "root"
     password: "1234qwerasdf"
+
+    #Spring Boot 默认是不注入这些属性值的，需要自己绑定
+    #druid 数据源专有配置
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    #配置监控统计拦截的filters，stat:监控统计、log4j：日志记录、wall：防御sql注入
+    #如果允许时报错  java.lang.ClassNotFoundException: org.apache.log4j.Priority
+    #则导入 log4j 依赖即可，Maven 地址：https://mvnrepository.com/artifact/log4j/log4j
+    # https://www.kuangstudy.com/bbs/1501916161661935617
+    filters: stat,wall,log4j
+    maxPoolPreparedStatementPerConnectionSize: 20
+    useGlobalDataSourceStat: true
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
 server:
   port: 8090
 ---
