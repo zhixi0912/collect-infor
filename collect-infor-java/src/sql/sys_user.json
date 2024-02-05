@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "username": "admin",
+    "password": "123456",
+    "nickname": "管理员",
+    "email": "admin@qq.com",
+    "phone": "18899998888",
+    "gender": "男",
+    "bank_id": null,
+    "card_id": null,
+    "address": "上海市静安区",
+    "wx_id": "wx_number",
+    "avatar": null,
+    "create_time": "3/2/2024 16:12:39"
+  }
+]
