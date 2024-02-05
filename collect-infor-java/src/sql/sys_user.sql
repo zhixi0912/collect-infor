@@ -1,0 +1,1 @@
+INSERT INTO `sys_user` (`id`, `username`, `password`, `nickname`, `email`, `phone`, `gender`, `bank_id`, `card_id`, `address`, `wx_id`, `avatar`, `create_time`) VALUES (1, 'admin', '123456', '管理员', 'admin@qq.com', '18899998888', '男', NULL, NULL, '上海市静安区', 'wx_number', NULL, '2024-02-03 16:12:39');
