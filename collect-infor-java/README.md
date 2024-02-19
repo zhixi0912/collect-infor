@@ -1,4 +1,4 @@
-# collect-infor-py
+# collect-infor-java
 
 #### 介绍
 **以下是 collect-infor-java 平台说明简介**  

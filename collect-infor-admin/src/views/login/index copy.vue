@@ -113,6 +113,7 @@ const validatePass = (rule: any, value: any, callback: any) => {
 const validateCode = (rule: any, value: any, callback: any) => {
   if (value === '') {
     callback(new Error('请输入验证码！'))
+    console.log('value-------->', value,value)
   } else {
     callback()
   }

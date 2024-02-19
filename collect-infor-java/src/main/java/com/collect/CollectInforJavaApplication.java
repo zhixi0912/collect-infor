@@ -20,6 +20,7 @@ public class CollectInforJavaApplication {
     public static void main(String[] args) {
         SpringApplication.run(CollectInforJavaApplication.class, args);
     }
+
     @GetMapping("/user/list")
     public List<User> index() {
         return userMapper.findAll();
@@ -29,4 +30,10 @@ public class CollectInforJavaApplication {
     public index() {
         return "OK";
     }
+
+    @GetMapping
+    public List<User> index() {
+        return userMapper.findAll();
+    }
+
 }
