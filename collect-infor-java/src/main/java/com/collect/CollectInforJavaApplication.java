@@ -21,7 +21,7 @@ public class CollectInforJavaApplication {
         SpringApplication.run(CollectInforJavaApplication.class, args);
     }
 
-    @GetMapping("/user/list")
+    @GetMapping("/user/get")
     public List<User> index() {
         return userMapper.findAll();
     }
