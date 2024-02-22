@@ -36,4 +36,8 @@ public class CollectInforJavaApplication {
         return userMapper.findAll();
     }
 
+    @PostMapping("user/del")
+    public Lis<User> index(){
+        return userMapper.hashCode();
+    }
 }
