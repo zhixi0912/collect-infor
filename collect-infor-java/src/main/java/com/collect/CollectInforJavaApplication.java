@@ -26,18 +26,5 @@ public class CollectInforJavaApplication {
         return userMapper.findAll();
     }
 
-    @PostMapping('/user/add')
-    public index() {
-        return "OK";
-    }
 
-    @GetMapping
-    public List<User> index() {
-        return userMapper.findAll();
-    }
-
-    @PostMapping("user/del")
-    public Lis<User> index(){
-        return userMapper.hashCode();
-    }
 }
