@@ -20,7 +20,7 @@ public class CollectInforJavaApplication {
         SpringApplication.run(CollectInforJavaApplication.class, args);
     }
 
-    @GetMapping("/user/get")
+    @GetMapping("/user")
     public List<User> index() {
         return userMapper.findAll();
     }
