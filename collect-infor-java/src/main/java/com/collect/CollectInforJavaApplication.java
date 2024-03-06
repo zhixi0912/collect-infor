@@ -26,6 +26,9 @@ public class CollectInforJavaApplication {
         return userMapper.findAll();
     }
     @PostMapping("/user")
+    public List<User> index() {
+        return 'OK'
+    }
 
 
 
