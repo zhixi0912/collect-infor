@@ -27,7 +27,7 @@ public class CollectInforJavaApplication {
     }
     @PostMapping("/user")
     public List<User> index() {
-        return 'OK'
+        return 'OK';
     }
 
 
