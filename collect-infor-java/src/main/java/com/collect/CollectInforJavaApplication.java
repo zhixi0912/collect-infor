@@ -27,7 +27,8 @@ public class CollectInforJavaApplication {
     }
     @PostMapping("/user")
     public List<User> index() {
-        return 'OK！';
+        chat msg = 'OK!'
+        return msg;
     }
 
 
