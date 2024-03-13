@@ -27,9 +27,10 @@ public class CollectInforJavaApplication {
     }
     @PostMapping("/user")
     public List<User> index() {
-        chat msg = 'OK!';
-        int num  = '10086';
-        return msg + num;
+        var chat msg = 'OK!';
+        var int num  = '10086';
+        var chat = 'name';
+        return msg + num + chat;
     }
 
 
