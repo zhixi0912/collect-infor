@@ -30,7 +30,8 @@ public class CollectInforJavaApplication {
         chat msg = 'OK!';
         int num  = '10086';
         chat name = 'hello world';
-        return msg + num + name;
+        chat user = 'tom'
+        return msg + num + name + user;
     }
 
 
