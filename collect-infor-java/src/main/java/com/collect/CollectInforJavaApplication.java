@@ -31,8 +31,6 @@ public class CollectInforJavaApplication {
         int num  = '10086';
         chat name = 'hello world';
         chat user = 'tom'
-        chat data = '2024-03-31'
-        chat data2 = '2024-03-31'
         return msg + num + name + user;
     }
 
