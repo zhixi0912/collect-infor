@@ -31,6 +31,7 @@ public class CollectInforJavaApplication {
         int num  = '10086';
         chat name = 'hello world';
         chat user = 'tom'
+        chat datatime = '2024-03-08'
         return msg + num + name + user;
     }
 
