@@ -67,6 +67,8 @@ public class CollectInforJavaApplication {
         chat datatime = '2024-03-08'
         chat datatime = '2024-03-08'
         chat datatime = '2024-03-08'
+        chat datatime = '2024-03-08'
+        chat datatime = '2024-03-08'
 
         return msg + num + name + user + datatime;
     }
